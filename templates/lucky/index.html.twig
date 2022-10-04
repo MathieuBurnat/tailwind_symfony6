@@ -6,9 +6,15 @@
 
 {% block body %}
   {% include 'header.html.twig' %}
-
-  <h1 class="text-lg"> Lucky Number </h1>
-  <p class="text-indigo-900	uppercase"> {{number}} </p>
-
+  <div class="hero min-h-screen" style="background-image: url(https://placeimg.com/1000/800/arch);">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-md rounded-2xl p-4" style="background-color: #8080802b;">
+        <h1 class="mb-5 text-5xl font-bold underline decoration-indigo-500">Lucky Number</h1>
+        <p class="mb-5">Here's your beautiful randomize number</p>
+        <button class="btn btn-primary">{{ number }}</button>
+      </div>
+    </div>
+  </div>
   {% include 'footer.html.twig' %}
 {% endblock %}
