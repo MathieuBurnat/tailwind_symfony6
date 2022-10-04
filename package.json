@@ -5,10 +5,13 @@
         "@hotwired/stimulus": "^3.0.0",
         "@symfony/stimulus-bridge": "^3.2.0",
         "@symfony/webpack-encore": "^4.0.0",
+        "autoprefixer": "^10.4.12",
         "core-js": "^3.23.0",
+        "postcss": "^8.4.17",
         "regenerator-runtime": "^0.13.9",
         "sass": "^1.54.9",
         "sass-loader": "^13.0.2",
+        "tailwindcss": "^3.1.8",
         "webpack": "^5.74.0",
         "webpack-cli": "^4.10.0",
         "webpack-notifier": "^1.15.0"
@@ -22,10 +25,9 @@
         "build": "encore production --progress"
     },
     "dependencies": {
-        "autoprefixer": "^10.4.11",
         "css": "^3.0.0",
+        "daisyui": "^2.31.0",
         "postcss-loader": "^7.0.1",
-        "tailwindcss": "^3.1.8",
         "tw-elements": "^1.0.0-alpha12"
     }
 }
