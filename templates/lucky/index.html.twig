@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+  Hello number!
+{% endblock %}
+
+{% block body %}
+  {% include 'header.html.twig' %}
+
+  <h1 class="text-lg"> Lucky Number </h1>
+  <p class="text-indigo-900	uppercase"> {{number}} </p>
+
+  {% include 'footer.html.twig' %}
+{% endblock %}
